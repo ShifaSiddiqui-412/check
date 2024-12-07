@@ -1,0 +1,148 @@
+.CSec{
+    --tw-text-opacity: 1;
+      color: rgb(156 163 175 / var(--tw-text-opacity));
+      position: relative;
+  }
+  .CD1{
+    position: absolute;
+    inset: 0;
+    --tw-bg-opacity: 1;
+    background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+  }
+  .CD2{
+    padding: 6em 1.2rem 6rem 1.2rem;
+    width: 100%;
+    margin-left: auto;
+      margin-right: auto;
+      display: flex;
+  }
+  @media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+  }
+  .CD3{
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    border-radius: 0.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  width: 100%;
+  margin-top: 2.5rem;
+  position: relative;
+  z-index: 10;
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+      box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+  @media (min-width: 1024px) {
+    .lg\:w-1\/3 {
+        width: 33.333333%;
+    }
+  }
+  @media (min-width: 768px) {
+    .md\:w-1\/2 {
+        width: 50%;
+    }
+  }
+  @media (min-width: 768px) {
+    .md\:ml-auto {
+        margin-left: auto;
+    }
+  }
+  @media (min-width: 768px) {
+    .md\:mt-0 {
+        margin-top: 0px;
+    }
+  }
+  .CD5:hover{
+    --tw-bg-opacity: 1;
+      background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+  }
+  .CD3h2{
+    --tw-text-opacity: 1;
+      color: rgb(17 24 39 / var(--tw-text-opacity));
+      font-size: 1.125rem ;
+      line-height: 1.75rem;
+      margin-bottom: 0.25rem;
+      font-weight: 500;
+  }
+  .CD3p{
+    --tw-text-opacity: 1;
+      color: rgb(75 85 99 / var(--tw-text-opacity));
+      line-height: 1.625;
+      margin-bottom: 1.25rem;
+  }
+  .CD4{
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  .CD4L{
+    font-size: 0.875rem ;
+      line-height: 1.25rem;
+      line-height: 1.75rem;
+      --tw-text-opacity: 1;
+      color: rgb(75 85 99 / var(--tw-text-opacity)); 
+  }
+  .CD4I{
+    --tw-bg-opacity: 1;
+      background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+      width: 100%;
+      border-radius: 0.25rem;
+      border-width: 1px;
+      --tw-border-opacity: 1;
+      border-color: rgb(209 213 219 / var(--tw-border-opacity));
+      font-size: 1rem ;
+      line-height: 1.5rem ;
+      outline: 2px solid transparent;
+      outline-offset: 2px;
+      --tw-text-opacity: 1;
+      color: rgb(55 65 81 / var(--tw-text-opacity));
+      padding:0.25rem 0.75rem 0.25rem 0.75rem;
+      line-height: 2rem ;
+      transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 150ms;
+      transition-duration: 200ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .CD4I:focus{
+    --tw-border-opacity: 1;
+      border-color: rgb(99 102 241 / var(--tw-border-opacity));
+      --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+      --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+      box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+      --tw-ring-opacity: 1;
+      --tw-ring-color: rgb(199 210 254 / var(--tw-ring-opacity)) ;
+    }
+  
+  .CD4T{
+  height:8rem;
+  line-height: 1.5rem;
+  resize: none;
+  }
+  .ConBut{
+    --tw-text-opacity: 1;
+      color: rgb(255 255 255 / var(--tw-text-opacity));
+      --tw-bg-opacity: 1;
+      background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+      border-width: 0px;
+      padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+      font-size: 1.125rem /* 18px */;
+      line-height: 1.75rem ;
+      border-radius: 0.25rem;
+  }
+  .ConBut:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgb(107 114 128 / var(--tw-bg-opacity))
+  }
+  .ConBut:focus{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }

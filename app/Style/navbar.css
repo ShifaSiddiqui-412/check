@@ -1,0 +1,136 @@
+.main-div {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+  height: 4rem;
+  z-index: 50;
+  position: sticky;
+  top: 0px;
+}
+
+.navHead {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity))
+}
+
+.NHd1 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* @media (min-width: 768px) {
+  .md\:flex-row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 640px) {
+  .NHd1 {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .NHd1 {
+    max-width: 768px;
+  }
+} */
+
+.NHAnc {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+  margin-bottom: 1rem;
+}
+
+
+/* @media (min-width: 768px) {
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+} */
+
+.NHImg {
+  width: 4rem;
+  height: 6rem;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  align-items:start;
+}
+
+.NHSpan {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 5rem;
+  place-items: start;
+}
+
+.NHSpan:hover {
+  --tw-text-opacity: 1;
+  color: rgb(88 28 135 / var(--tw-text-opacity));
+}
+
+.NHNav {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin-left: 5rem;
+  
+}
+
+/* @media (min-width: 768px) {
+  .md\:ml-auto {
+    margin-left: auto;
+  }
+} 
+
+@media (min-width: 768px) {
+  .md\:mr-auto {
+    margin-right: auto;
+  }
+}*/
+.NHLin {
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  color: rgb(36, 35, 35);
+}
+
+.NHLin:hover {
+  --tw-text-opacity: 1;
+  color: rgb(88 28 135 / var(--tw-text-opacity));
+  cursor: pointer;
+}
+
+.NHBut {
+  display: inline-flex;
+  align-items:center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  padding: 0.25rem 0rem 0.25rem 0.11rem;
+  outline: 2px solid transparent;
+  outline-offset: 1px;
+  border-radius: 0.5rem;
+  margin-bottom: 1.75rem;
+  margin-left: 5rem;
+}
+
+.NHBut:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.NHFa {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-left: 0.5rem;
+}
